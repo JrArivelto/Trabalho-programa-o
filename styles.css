@@ -65,3 +65,14 @@ footer {
 footer p {
     margin: 0;
 }
+.img-cidade{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+.imagens{
+    display:flex;
+    justify-content: space-around;
+}
