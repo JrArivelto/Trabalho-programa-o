@@ -9,8 +9,8 @@ body {
 }
 
 header {
-    background: #05f010;
-    color: #f70505;
+    background: #158b1b;
+    color: #000000;
     padding: 10px 0;
     text-align: center;
 }
@@ -22,6 +22,7 @@ header .emblema {
     position: absolute;
     top: 10px;
     left: 10px;
+    border-radius: 60px;
 }
 header h1 {
     margin: 0;
