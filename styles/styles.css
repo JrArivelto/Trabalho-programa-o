@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #1297cc;
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+    border: #0f7da8 solid 2px;
+    box-sizing: border-box;
+    border-radius: 0 0 10px 10px;
+}
+header .emblema {
+    width: 100px;
+    height: 100px;
+    background: url('../imagens/unnamed.jpg') no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    top: 26px;
+    left: 26px;
+    border-radius: 100px;
+   
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+.img-cidade{
+    width: 280px;
+    height: 280px;
+    margin: 0 20px;
+    border-radius: 140px;
+    object-fit: cover;
+}
+.imagens{
+    display:flex;
+    justify-content: space-around;
+}
